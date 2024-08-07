@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cscore=+prompt("Enter credit score");
+        let aincome=+prompt("Enter Annual income");
+        let Loan_Amount=+prompt("Enter Loan Amount");
+        if(cscore>=600 && aincome>=40000){
+            if(Loan_Amount<=(aincome*(50/100))){
+                alert("person is eligible for loan")
+            }
+            else{
+                alert("Not eligible for Loan")
+            }
+
+        }
+        else{
+            alert("Not eligible for loan")
+        }
+    </script>
+</body>
+</html>
